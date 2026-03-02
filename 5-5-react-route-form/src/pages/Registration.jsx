@@ -77,7 +77,7 @@ export default function Registration() {
 
           {/*Disable the submit button until all requirements met*/}
 
-        <button type="submit" className="btn" disabled={!email || !password || !gender}>Register</button>
+        <button type="submit" className="btn" >Register</button>
       </form>
 
       <div className="card info">
